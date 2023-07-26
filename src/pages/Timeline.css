@@ -1,0 +1,61 @@
+
+
+.newTweetForm label img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+}
+
+.newTweetForm {
+    padding: 1.5rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5px;
+
+}
+.newTweetForm label{
+ display: flex;
+ gap:0.5rem
+
+}
+.newTweetForm label textarea{
+    flex: 1;
+    border:0;
+    margin-top: 0.75rem;
+    resize:none;
+    background-color: #121214;
+    font-size: 1rem;
+    font-weight: 400;
+    color:white;
+
+
+}
+.newTweetForm label textarea:focus{
+    outline: none;
+}
+.newTweetForm label textarea::placeholder{
+
+      color:#828282;
+}
+.newTweetForm button[type=submit]{
+    margin-left: auto;
+    background-color: var(--twitter-blue);
+    color: white;
+ 
+    border-radius: 999px;
+
+    font-size: 1rem;
+    font-weight: 900;
+    border: 0;
+    padding: 0.75rem 1.5rem;
+
+}
+.newTweetForm button[type=submit]:hover{
+    filter: brightness(0.9);
+}
+.separator{
+    background: #202020;;
+    border-top: 1px splid #2F2F2F;
+    border-bottom: 1px splid #2F2F2F;
+    height: 0.75rem;
+}
